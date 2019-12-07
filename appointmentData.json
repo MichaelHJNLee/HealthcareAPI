@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "patientFirst": "Sterling",
+    "patientLast": "Archer",
+    "date": "05-09-2018",
+    "time": "08:00AM",
+    "kind": "New Patient",
+    "doctorFirst": "Algernop",
+    "doctorLast": "Krieger",
+    "doctorId": 2
+  },
+  {
+    "id": 2,
+    "patientFirst": "Cyril",
+    "patientLast": "Figis",
+    "date": "05-09-2018",
+    "time": "08:30AM",
+    "kind": "Follow-up",
+    "doctorFirst": "Algernop",
+    "doctorLast": "Krieger",
+    "doctorId": 2
+  },
+  {
+    "id": 3,
+    "patientFirst": "Ray",
+    "patientLast": "Gillete",
+    "date": "05-09-2018",
+    "time": "09:00AM",
+    "kind": "Follow-up",
+    "doctorFirst": "Algernop",
+    "doctorLast": "Krieger",
+    "doctorId": 2
+  },
+  {
+    "id": 4,
+    "patientFirst": "Lana",
+    "patientLast": "Kane",
+    "date": "05-09-2018",
+    "time": "09:30AM",
+    "kind": "New Patient",
+    "doctorFirst": "Algernop",
+    "doctorLast": "Krieger",
+    "doctorId": 2
+  },
+  {
+    "id": 5,
+    "patientFirst": "Pam",
+    "patientLast": "Poovey",
+    "date": "05-09-2018",
+    "time": "10:00AM",
+    "kind": "New Patient",
+    "doctorFirst": "Algernop",
+    "doctorLast": "Krieger",
+    "doctorId": 2
+  },
+  {
+    "id": 6,
+    "patientFirst": "Michael",
+    "patientLast": "Lee",
+    "date": "05-09-2018",
+    "time": "08:00AM",
+    "kind": "New Patient",
+    "doctorFirst": "Algernop",
+    "doctorLast": "Krieger",
+    "doctorId": 2
+  },
+  {
+    "id": 7,
+    "patientFirst": "Lee",
+    "patientLast": "Michaelson",
+    "date": "05-09-2018",
+    "time": "08:00AM",
+    "kind": "Follow-up",
+    "doctorFirst": "Julius",
+    "doctorLast": "Hibbert",
+    "doctorId": 1
+  },
+  {
+    "id": 8,
+    "patientFirst": "Miguel",
+    "patientLast": "Li",
+    "date": "05-09-2018",
+    "time": "08:00AM",
+    "kind": "New Patient",
+    "doctorFirst": "Nick",
+    "doctorLast": "Riviera",
+    "doctorId": 3
+  }
+]
