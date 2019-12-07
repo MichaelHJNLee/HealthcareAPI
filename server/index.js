@@ -80,11 +80,14 @@ app.delete('/appointments/:doctorId/:apptId', (req, res) => {
 
 //Creates a new appointment
 app.post('/appointments', (req, res) => {
+  //Checks if the appointment time is valid
   let validTime = req.body.time.slice(3,5);
   if (validTime !== '00' && validTime !== '15' && validTime !== '30' && validTime !== '45') {
     return res.send('Appointments are only available every 15 minutes. Please reschedule your appointment to an appropriate time')
   }
+
   let counterAtTime = 0;
+
   //Finds how many appointments are already scheduled for this doctor at this time
   for (let i = 0; i < inMemoryAppointments.length; i++) {
     if (inMemoryAppointments[i].doctorId === parseInt(req.body.doctorId)) {
